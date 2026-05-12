@@ -1,0 +1,11 @@
+{
+  "client_id": "helens-for-korkort",
+  "client_display_name": "Helens för Körkort",
+  "reports": [
+    {
+      "file": "2026-04.html",
+      "month": "2026-04",
+      "label": "April 2026"
+    }
+  ]
+}
