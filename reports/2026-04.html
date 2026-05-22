@@ -3,26 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Helens för Körkort - Rapport april 2026</title>
+  <meta name="robots" content="noindex, nofollow">
+  <title>Helens för Körkort — Rapport april 2026 | Cyntora</title>
   <link rel="icon" type="image/svg+xml" href="../assets/cyntora-favicon.svg">
   <link rel="apple-touch-icon" href="../assets/cyntora-favicon.svg">
-  <link rel="stylesheet" href="../assets/cyntora-reports.css">
+  <link rel="stylesheet" href="../assets/cyntora-reports-v2.css?v=71e0812c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap">
+  <style id="client-theme">:root{ --brass:#FFD401; --brass-soft:rgba(255, 212, 1, 0.14); --bg-cream:#FFFFFF; --bg-cream-soft:#F6F3ED; --bg-dark:#231F20; --bg-dark-soft:#0A0A0A; --ink:#1A1A1A; --ink-on-dark:#FFFFFF; --ink-muted:#5A5A5A; --ink-muted-dark:rgba(255, 255, 255, 0.78); --border:#E5E2DA; --border-dark:rgba(255, 255, 255, 0.15); --font-display:"Open Sans", -apple-system, sans-serif; --font-body:"Open Sans", -apple-system, sans-serif; --cover-title:#FFD401;  }</style>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
-  <script src="../assets/cyntora-charts.js" defer></script>
-  <script src="../assets/cyntora-reports.js" defer></script>
+  <script src="../assets/cyntora-charts.js?v=3039954c" defer></script>
+  <script src="../assets/cyntora-reports.js?v=8b74aa71" defer></script>
 </head>
 <body>
 
 <nav class="report-nav" data-section-nav>
   <div class="report-nav__inner">
-    <div class="report-nav__group">
-      <label for="section-jump">Sektion:</label>
-      <select id="section-jump" data-section-jump>
-        <option value="">Översikt</option>
-      </select>
+    <div class="report-nav__brand">
+      <img src="../assets/cyntora-logo.svg" alt="Cyntora">
+      <div class="divider"></div>
+      <div class="label">Helens för Körkort</div>
     </div>
-    <div class="report-nav__group">
-      <label for="period">Period:</label>
+    <div class="report-nav__links" data-section-links></div>
+    <div class="report-nav__dropdown" data-section-dropdown-wrap>
+      <label for="section-jump">Sektion</label>
+      <select id="section-jump" data-section-jump></select>
+    </div>
+    <div class="report-nav__period">
+      <label for="period">Period</label>
       <select id="period" data-period-switcher data-current="2026-04" data-index-url="index.json" disabled>
         <option value="2026-04.html" selected>April 2026</option>
       </select>
@@ -31,35 +41,37 @@
 </nav>
 
 
-<section class="page cover">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <h1>Helens för Körkort - Rapport</h1>
-  <p class="month">April 2026</p>
-
-
-  <div class="footer">
-<div class="property">Helens för Körkort - GA4</div>  </div>
+<section class="cover" id="cover">
+  <div class="cover__top">
+    <img src="../assets/cyntora-logo-white.svg" alt="Cyntora">
+    <div class="meta">
+      April 2026
+· Rapport    </div>
+  </div>
+  <div class="cover__center">
+    <div class="cover__eyebrow">Cyntora månadsrapport</div>
+    <h1>Helens för Körkort</h1>
+      <p class="cover__kicker">Trafiken till helensforkorkort.se ökade kraftigt under april 2026, webbplatsen hade 3 695 unika användare, +77 % jämfört med april 2025.</p>
+<p class="cover__kicker">Sessioner uppgick till 4 993 (+49 % år-över-år). Meta Ads genererade 235 802 visningar och 4 477 klick för totalt 10 387 kr och drev en tydlig ökning av trafiken till kurssidorna.</p>  </div>
+  <div class="cover__bottom">
+    <div class="col">
+      <div class="label">Period</div>
+      <div class="val">April 2026</div>
+    </div>
+    <div class="col">
+      <div class="label">Datakällor</div>
+      <div class="val">GA4, Meta Ads</div>
+    </div>
+    <div class="col">
+      <div class="label">Levererat av</div>
+      <div class="val">Cyntora</div>
+    </div>
+  </div>
 </section>
-<section class="page">
-<div class="page-header">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <div class="meta">
-    <div class="client">Helens för Körkort</div>
-    <div>April 2026</div>
-  </div>
-</div><div class="summary-block">
-  <h2>Sammanfattning av månaden</h2>
-  <p>Trafiken till helensforkorkort.se ökade kraftigt under april 2026, webbplatsen hade 3 695 unika användare, +77 % jämfört med april 2025. Sessioner uppgick till 4 993 (+49 % år-över-år). Meta Ads genererade 235 802 visningar och 4 477 klick för totalt 10 387 kr och drev en tydlig ökning av trafiken till kurssidorna.</p>
-</div></section>
 
-<section class="page">
-<div class="page-header">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <div class="meta">
-    <div class="client">Helens för Körkort</div>
-    <div>April 2026</div>
-  </div>
-</div>  <div class="section" id="section-ga4_overview" data-section-id="ga4_overview" data-section-title="Google Analytics 4">
+<section class="page page--paper">
+  <div class="wrap">
+    <div class="section" id="section-ga4_overview" data-section-id="ga4_overview" data-section-title="Google Analytics 4">
   <div class="section-title">
 <img class="section-title__icon" src="../assets/icons/ga4.svg" alt="">    <span>Google Analytics 4</span>
   </div>
@@ -153,10 +165,11 @@
   <div class="chart-card__head">
     <span>New Users</span>
     <span class="right">
-<span class="value">0</span>    </span>
+<span class="value">3 340</span>        <span class="trend trend--up">78%</span>
+    </span>
   </div>
   <div class="chart-wrap chart-wrap--short">
-    <canvas id="ga4-new-users-4" data-cyntora='{"format": "number", "integer": true, "kind": "line", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "18 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "28 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}, {"color": "#b9d2cf", "label": "April 2025", "values": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}]}'></canvas>
+    <canvas id="ga4-new-users-4" data-cyntora='{"format": "number", "integer": true, "kind": "line", "labels": ["1 Apr", "2 Apr", "3 Apr", "4 Apr", "5 Apr", "6 Apr", "7 Apr", "8 Apr", "9 Apr", "10 Apr", "11 Apr", "12 Apr", "13 Apr", "14 Apr", "15 Apr", "16 Apr", "17 Apr", "18 Apr", "19 Apr", "20 Apr", "21 Apr", "22 Apr", "23 Apr", "24 Apr", "25 Apr", "26 Apr", "27 Apr", "28 Apr", "29 Apr", "30 Apr"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [138, 138, 114, 124, 139, 123, 116, 115, 94, 80, 124, 121, 91, 120, 103, 102, 100, 111, 126, 112, 105, 116, 96, 98, 91, 115, 124, 105, 100, 99]}, {"color": "#b9d2cf", "label": "April 2025", "values": [57, 66, 72, 55, 45, 62, 74, 67, 77, 58, 37, 43, 55, 84, 99, 57, 43, 41, 51, 60, 63, 95, 80, 88, 31, 38, 62, 94, 60, 64]}]}'></canvas>
   </div>
 </div><div class="chart-card">
   <div class="chart-card__head">
@@ -226,7 +239,7 @@
 </div>
 <div class="band">Pages</div>
 <div class="data-table-wrap">
-<div class="head">Visar 10 av 20 sidor</div>  <table class="data-table">
+<div class="head">Visar 10 av 24 sidor</div>  <table class="data-table">
     <thead>
       <tr>
         <th>SIDA</th>
@@ -425,15 +438,11 @@
   <p class="takeaway__body">Trafiken landade på 3 695 användare (+77,3 % jämfört med samma månad förra året) med 4 993 sessioner (+48,8 % jämfört med samma månad förra året). Strukturella mätvärden: Bounce Rate på 49,1 % och engagement rate på 50,9 %. GA4 registrerade 11 konverteringar i månaden.</p>
 </div>
 </div>
+  </div>
 </section>
 <section class="page">
-<div class="page-header">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <div class="meta">
-    <div class="client">Helens för Körkort</div>
-    <div>April 2026</div>
-  </div>
-</div>  <div class="section" id="section-meta_ads" data-section-id="meta_ads" data-section-title="Meta Ads">
+  <div class="wrap">
+    <div class="section" id="section-meta_ads" data-section-id="meta_ads" data-section-title="Meta Ads">
   <div class="section-title">
 <img class="section-title__icon" src="../assets/icons/meta.svg" alt="">    <span>Meta Ads</span>
   </div>
@@ -474,7 +483,7 @@
 <img src="../assets/icons/meta.svg" alt="">      Conversions
     </div>
   </div>
-    <div class="card__value card__value--big">0</div>
+    <div class="card__value card__value--big">2</div>
 </div></div>
 <div class="chart-card">
   <div class="chart-card__head">
@@ -493,31 +502,24 @@
   <p class="takeaway__body">Meta Ads levererade 235 802 visningar och 4 477 klick till en kostnad om 10 387 SEK.</p>
 </div>
 </div>
+  </div>
 </section>
 
-<section class="page">
-<div class="page-header">
-  <img class="logo" src="../assets/cyntora-logo.svg" alt="Cyntora">
-  <div class="meta">
-    <div class="client">Helens för Körkort</div>
-    <div>April 2026</div>
+<section class="page page--dark" id="section-next-steps" data-section-id="next-steps" data-section-title="Vad vi gör härnäst">
+  <div class="wrap">
+    <div class="eyebrow">Vad händer härnäst</div>
+    <div class="next-steps">
+      <h2>Vad vi gör härnäst</h2>
+      <ul>
+<li>Vi kommer att aktivera lead-spårning på kontaktformulären så att vi kan följa Meta-annonseringen hela vägen från klick till bokningsförfrågan.</li><li>Vi kommer att justera annonsernas mål-URL:er och landningssidor för att minska Bounce Rate.</li><li>Vi kommer att följa upp trafiktrender in i maj och se vilka kurskategorier som driver mest engagemang från betald social.</li>      </ul>
+      <p class="next-steps__uppsell">Vill ni få full översikt över hur många besökare som blir leads? Vi kan sätta upp konverteringsmål i både Meta och GA4 så att vi ser hela vägen från annons till kontakt - hör av er så pratar vi.</p>
+    </div>
+    <div class="next-steps next-steps--external">
+      <h2>Detta behöver vi från er</h2>
+      <ul>
+<li>Installera Meta Pixel-konverteringsevent (Lead eller CompleteRegistration) på Boka-knappar och formulärinskick. Pixeln registrerar 2 384 link clicks men 0 leads.</li>      </ul>
+    </div>
   </div>
-</div><div class="next-steps">
-  <h2>Vad vi gör härnäst</h2>
-  <ul>
-      <li>Vi kommer att aktivera lead-spårning på kontaktformulären så att vi kan följa Meta-annonseringen hela vägen från klick till bokningsförfrågan.</li>
-      <li>Vi kommer att justera annonsernas mål-URL:er och landningssidor för att minska Bounce Rate.</li>
-      <li>Vi kommer att följa upp trafiktrender in i maj och se vilka kurskategorier som driver mest engagemang från betald social.</li>
-  </ul>
-  <p class="next-steps__uppsell">Vill ni få full översikt över hur många besökare som blir leads? Vi kan sätta upp konverteringsmål i både Meta och GA4 så att vi ser hela vägen från annons till kontakt - hör av er så pratar vi.</p>
-</div>
-
-<div class="next-steps next-steps--external">
-  <h2>Detta behöver vi från er</h2>
-  <ul>
-      <li>Installera Meta Pixel-konverteringsevent (Lead eller CompleteRegistration) på Boka-knappar och formulärinskick. Pixeln registrerar 2 384 link clicks men 0 leads.</li>
-  </ul>
-</div>
 </section>
 
 
