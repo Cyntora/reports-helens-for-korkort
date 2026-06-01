@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Helens för Körkort — Rapport maj 2026 | Cyntora</title>
+  <link rel="icon" type="image/svg+xml" href="../assets/cyntora-favicon.svg">
+  <link rel="apple-touch-icon" href="../assets/cyntora-favicon.svg">
+  <link rel="stylesheet" href="../assets/cyntora-reports-v2.css?v=71e0812c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap">
+  <style id="client-theme">:root{ --brass:#FFD401; --brass-soft:rgba(255, 212, 1, 0.14); --bg-cream:#FFFFFF; --bg-cream-soft:#F6F3ED; --bg-dark:#231F20; --bg-dark-soft:#0A0A0A; --ink:#1A1A1A; --ink-on-dark:#FFFFFF; --ink-muted:#5A5A5A; --ink-muted-dark:rgba(255, 255, 255, 0.78); --border:#E5E2DA; --border-dark:rgba(255, 255, 255, 0.15); --font-display:"Open Sans", -apple-system, sans-serif; --font-body:"Open Sans", -apple-system, sans-serif; --cover-title:#FFD401;  }</style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js" defer></script>
+  <script src="../assets/cyntora-charts.js?v=3039954c" defer></script>
+  <script src="../assets/cyntora-reports.js?v=8b74aa71" defer></script>
+</head>
+<body>
+
+<nav class="report-nav" data-section-nav>
+  <div class="report-nav__inner">
+    <div class="report-nav__brand">
+      <img src="../assets/cyntora-logo.svg" alt="Cyntora">
+      <div class="divider"></div>
+      <div class="label">Helens för Körkort</div>
+    </div>
+    <div class="report-nav__links" data-section-links></div>
+    <div class="report-nav__dropdown" data-section-dropdown-wrap>
+      <label for="section-jump">Sektion</label>
+      <select id="section-jump" data-section-jump></select>
+    </div>
+    <div class="report-nav__period">
+      <label for="period">Period</label>
+      <select id="period" data-period-switcher data-current="2026-05" data-index-url="index.json" disabled>
+        <option value="2026-05.html" selected>Maj 2026</option>
+      </select>
+    </div>
+  </div>
+</nav>
+
+
+<section class="cover" id="cover">
+  <div class="cover__top">
+    <img src="../assets/cyntora-logo-white.svg" alt="Cyntora">
+    <div class="meta">
+      Maj 2026
+· Rapport    </div>
+  </div>
+  <div class="cover__center">
+    <div class="cover__eyebrow">Cyntora månadsrapport</div>
+    <h1>Helens för Körkort</h1>
+      <p class="cover__kicker">Maj 2026 blev den starkaste besökarmånaden hittills med 3 641 användare på webbplatsen, en ökning med 70,2 % jämfört med maj 2025. Betald social annonsering via Meta och organisk sök bidrog ungefär lika till inflöden, med 1 641 respektive 1 501 användare.</p>
+<p class="cover__kicker">Engagement rate landade på 54,0 % och genomsnittlig sessionstid var 2 minuter och 12 sekunder, vilket visar att besökarna aktivt tog del av innehållet. Meta Ads-kampanjen genererade 238 458 exponeringar och 4 564 klick till en kostnad av 10 840 kr under månaden.</p>  </div>
+  <div class="cover__bottom">
+    <div class="col">
+      <div class="label">Period</div>
+      <div class="val">Maj 2026</div>
+    </div>
+    <div class="col">
+      <div class="label">Datakällor</div>
+      <div class="val">GA4, Meta Ads</div>
+    </div>
+    <div class="col">
+      <div class="label">Levererat av</div>
+      <div class="val">Cyntora</div>
+    </div>
+  </div>
+</section>
+
+<section class="page page--paper">
+  <div class="wrap">
+    <div class="section" id="section-ga4_overview" data-section-id="ga4_overview" data-section-title="Google Analytics 4">
+  <div class="section-title">
+<img class="section-title__icon" src="../assets/icons/ga4.svg" alt="">    <span>Google Analytics 4</span>
+  </div>
+
+
+    <div class="band">Overview</div>
+<div class="card-grid card-grid--asym"><div class="card card--icon"><img src="../assets/icons/ga4.svg" alt="GA4"></div><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Total Users</span>
+    <span class="right">
+<span class="value">3 641</span>        <span class="trend trend--up">+70% YoY</span>
+    </span>
+  </div>
+  <div class="chart-wrap chart-wrap--short">
+    <canvas id="ga4-users-1" data-cyntora='{"kind": "sparkline", "labels": ["1 May", "2 May", "3 May", "4 May", "5 May", "6 May", "7 May", "8 May", "9 May", "10 May", "11 May", "12 May", "13 May", "14 May", "15 May", "16 May", "17 May", "18 May", "19 May", "20 May", "21 May", "22 May", "23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May", "30 May", "31 May"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [94, 126, 179, 191, 194, 168, 145, 125, 112, 132, 147, 142, 129, 114, 116, 122, 121, 166, 171, 171, 145, 112, 103, 125, 162, 151, 131, 148, 117, 105, 119]}, {"color": "#b9d2cf", "label": "April 2025", "values": [77, 79, 50, 84, 129, 127, 104, 86, 61, 63, 91, 146, 126, 116, 101, 87, 66, 95, 104, 113, 98, 118, 83, 45, 60, 115, 104, 85, 57, 67]}]}'></canvas>
+  </div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/ga4.svg" alt="">      Bounce Rate
+    </div>
+      <span class="trend trend--up">+10% YoY</span>
+  </div>
+    <div class="card__value card__value--big">45.97%</div>
+</div></div>
+<div class="card-grid"><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Total Users</span>
+    <span class="right">
+    </span>
+  </div>
+
+  <div class="donut-row">
+    <div class="chart-wrap chart-wrap--short" style="position: relative;">
+      <canvas id="ga4-donut-2" data-cyntora='{"colors": ["#4285F4", "#34A853", "#FBBC04", "#EA4335", "#AB47BC", "#00ACC1", "#FF7043", "#9E9E9E", "#7E57C2", "#26A69A"], "kind": "donut", "labels": ["Paid Social", "Organic Search", "Direct", "Organic Social", "Paid Other", "Unassigned", "Referral"], "values": [1641.0, 1501.0, 245.0, 176.0, 71.0, 21.0, 11.0]}'></canvas>
+      <div style="
+        position: absolute; top: 50%; left: 50%;
+        transform: translate(-50%, -50%); text-align: center;">
+        <div style="font-size: 18px; font-weight: 700;">3 641</div>
+<div style="font-size: 10px; color: #9a9a9a;">Total Users</div>      </div>
+    </div>
+    <div class="legend">
+      <div class="row">
+        <span class="swatch" style="background: #4285F4;"></span>
+        <span class="name">Paid Social</span>
+        <span class="value">1 641</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #34A853;"></span>
+        <span class="name">Organic Search</span>
+        <span class="value">1 501</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FBBC04;"></span>
+        <span class="name">Direct</span>
+        <span class="value">245</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #EA4335;"></span>
+        <span class="name">Organic Social</span>
+        <span class="value">176</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #AB47BC;"></span>
+        <span class="name">Paid Other</span>
+        <span class="value">71</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #00ACC1;"></span>
+        <span class="name">Unassigned</span>
+        <span class="value">21</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FF7043;"></span>
+        <span class="name">Referral</span>
+        <span class="value">11</span>
+      </div>
+    </div>
+  </div>
+</div><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Average Engagement Time Per Session</span>
+    <span class="right">
+<span class="value">00:02:13</span>    </span>
+  </div>
+  <div class="chart-wrap chart-wrap--short">
+    <canvas id="ga4-eng-3" data-cyntora='{"format": "duration", "kind": "line", "labels": ["1 May", "2 May", "3 May", "4 May", "5 May", "6 May", "7 May", "8 May", "9 May", "10 May", "11 May", "12 May", "13 May", "14 May", "15 May", "16 May", "17 May", "18 May", "19 May", "20 May", "21 May", "22 May", "23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May", "30 May", "31 May"], "series": [{"color": "#1f4e4a", "label": "April 2026", "values": [83.7, 81.7, 149.6, 111.0, 134.0, 281.3, 95.5, 76.2, 119.1, 87.0, 150.9, 127.0, 109.2, 129.1, 141.1, 103.0, 98.5, 153.7, 157.9, 117.6, 173.4, 99.2, 73.6, 181.8, 171.6, 170.4, 165.5, 147.6, 93.6, 51.5, 107.1]}, {"color": "#b9d2cf", "label": "April 2025", "values": [158.9, 121.0, 180.5, 211.4, 194.6, 154.1, 201.6, 201.1, 138.9, 181.9, 138.5, 203.0, 182.2, 220.1, 459.1, 167.2, 114.1, 161.5, 197.8, 194.3, 218.6, 168.3, 72.1, 132.7, 181.0, 258.9, 152.1, 167.3, 157.4, 184.2, 90.7]}]}'></canvas>
+  </div>
+</div></div>
+<div class="card-grid"><div class="chart-card">
+  <div class="chart-card__head">
+    <span>New Users</span>
+    <span class="right">
+<span class="value">3 321</span>        <span class="trend trend--up">+74% YoY</span>
+    </span>
+  </div>
+  <div class="chart-wrap chart-wrap--short">
+    <canvas id="ga4-new-users-4" data-cyntora='{"format": "number", "integer": true, "kind": "line", "labels": ["1 May", "2 May", "3 May", "4 May", "5 May", "6 May", "7 May", "8 May", "9 May", "10 May", "11 May", "12 May", "13 May", "14 May", "15 May", "16 May", "17 May", "18 May", "19 May", "20 May", "21 May", "22 May", "23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May", "30 May", "31 May"], "series": [{"color": "#1f4e4a", "label": "Maj 2026", "values": [78, 105, 150, 152, 160, 125, 98, 89, 91, 111, 111, 103, 93, 87, 88, 101, 92, 127, 129, 134, 112, 84, 86, 101, 126, 112, 95, 113, 90, 84, 94]}, {"color": "#b9d2cf", "label": "Maj 2025", "values": [56, 60, 29, 65, 99, 90, 71, 53, 37, 46, 70, 94, 94, 70, 67, 62, 55, 68, 68, 76, 60, 78, 47, 30, 47, 80, 68, 53, 35, 50, 36]}]}'></canvas>
+  </div>
+</div><div class="chart-card">
+  <div class="chart-card__head">
+    <span>Total Users</span>
+    <span class="right">
+<span class="value">3 641</span>        <span class="trend trend--up">+70% YoY</span>
+    </span>
+  </div>
+  <div class="chart-wrap chart-wrap--short">
+    <canvas id="ga4-total-users-5" data-cyntora='{"format": "number", "integer": true, "kind": "line", "labels": ["1 May", "2 May", "3 May", "4 May", "5 May", "6 May", "7 May", "8 May", "9 May", "10 May", "11 May", "12 May", "13 May", "14 May", "15 May", "16 May", "17 May", "18 May", "19 May", "20 May", "21 May", "22 May", "23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May", "30 May", "31 May"], "series": [{"color": "#1f4e4a", "label": "Maj 2026", "values": [94, 126, 179, 191, 194, 168, 145, 125, 112, 132, 147, 142, 129, 114, 116, 122, 121, 166, 171, 171, 145, 112, 103, 125, 162, 151, 131, 148, 117, 105, 119]}, {"color": "#b9d2cf", "label": "Maj 2025", "values": [77, 79, 50, 84, 129, 127, 104, 86, 61, 63, 91, 146, 126, 116, 101, 87, 66, 95, 104, 113, 98, 118, 83, 45, 60, 115, 104, 85, 57, 67, 54]}]}'></canvas>
+  </div>
+</div></div>
+<div class="chart-card">
+  <div class="chart-card__head">
+    <span>Conversions</span>
+    <span class="right">
+    </span>
+  </div>
+
+  <div class="donut-row">
+    <div class="chart-wrap chart-wrap--short" style="position: relative;">
+      <canvas id="ga4-donut-6" data-cyntora='{"colors": ["#4285F4", "#34A853", "#FBBC04", "#EA4335", "#AB47BC", "#00ACC1", "#FF7043", "#9E9E9E", "#7E57C2", "#26A69A"], "kind": "donut", "labels": ["Paid Social", "Organic Search", "Direct", "Organic Social", "Paid Other", "Unassigned", "Referral"], "values": [0.0, 5.0, 3.0, 0.0, 0.0, 0.0, 0.0]}'></canvas>
+      <div style="
+        position: absolute; top: 50%; left: 50%;
+        transform: translate(-50%, -50%); text-align: center;">
+        <div style="font-size: 18px; font-weight: 700;">8</div>
+<div style="font-size: 10px; color: #9a9a9a;">Conversions</div>      </div>
+    </div>
+    <div class="legend">
+      <div class="row">
+        <span class="swatch" style="background: #4285F4;"></span>
+        <span class="name">Paid Social</span>
+        <span class="value">0</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #34A853;"></span>
+        <span class="name">Organic Search</span>
+        <span class="value">5</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FBBC04;"></span>
+        <span class="name">Direct</span>
+        <span class="value">3</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #EA4335;"></span>
+        <span class="name">Organic Social</span>
+        <span class="value">0</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #AB47BC;"></span>
+        <span class="name">Paid Other</span>
+        <span class="value">0</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #00ACC1;"></span>
+        <span class="name">Unassigned</span>
+        <span class="value">0</span>
+      </div>
+      <div class="row">
+        <span class="swatch" style="background: #FF7043;"></span>
+        <span class="name">Referral</span>
+        <span class="value">0</span>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="band">Pages</div>
+<div class="data-table-wrap">
+<div class="head">Visar 10 av 24 sidor</div>  <table class="data-table">
+    <thead>
+      <tr>
+        <th>SIDA</th>
+<th>SESSIONS</th><th>TOTAL USERS</th><th>USER ENGAGEMENT</th><th>VIEWS</th><th>EVENT COUNT</th>      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>/</td>
+          <td>
+            925
+          </td>
+          <td>
+            755
+          </td>
+          <td>
+            14:11:41
+          </td>
+          <td>
+            2 227
+          </td>
+          <td>
+            6 080
+          </td>
+      </tr>
+      <tr>
+        <td>/be-korkort</td>
+          <td>
+            874
+          </td>
+          <td>
+            780
+          </td>
+          <td>
+            05:20:35
+          </td>
+          <td>
+            1 045
+          </td>
+          <td>
+            3 251
+          </td>
+      </tr>
+      <tr>
+        <td>/moped</td>
+          <td>
+            532
+          </td>
+          <td>
+            464
+          </td>
+          <td>
+            01:34:00
+          </td>
+          <td>
+            622
+          </td>
+          <td>
+            1 847
+          </td>
+      </tr>
+      <tr>
+        <td>/c1</td>
+          <td>
+            499
+          </td>
+          <td>
+            470
+          </td>
+          <td>
+            02:11:47
+          </td>
+          <td>
+            555
+          </td>
+          <td>
+            1 756
+          </td>
+      </tr>
+      <tr>
+        <td>/intensivvecka-mc</td>
+          <td>
+            486
+          </td>
+          <td>
+            439
+          </td>
+          <td>
+            02:28:29
+          </td>
+          <td>
+            567
+          </td>
+          <td>
+            1 869
+          </td>
+      </tr>
+      <tr>
+        <td>/mc</td>
+          <td>
+            358
+          </td>
+          <td>
+            260
+          </td>
+          <td>
+            04:36:04
+          </td>
+          <td>
+            553
+          </td>
+          <td>
+            1 721
+          </td>
+      </tr>
+      <tr>
+        <td>/sakerhetskontroll-b96</td>
+          <td>
+            185
+          </td>
+          <td>
+            147
+          </td>
+          <td>
+            02:06:17
+          </td>
+          <td>
+            207
+          </td>
+          <td>
+            663
+          </td>
+      </tr>
+      <tr>
+        <td>/funktionsbeskrivning-be</td>
+          <td>
+            119
+          </td>
+          <td>
+            63
+          </td>
+          <td>
+            02:04:06
+          </td>
+          <td>
+            160
+          </td>
+          <td>
+            419
+          </td>
+      </tr>
+      <tr>
+        <td>/kontakta-oss</td>
+          <td>
+            119
+          </td>
+          <td>
+            80
+          </td>
+          <td>
+            00:29:43
+          </td>
+          <td>
+            141
+          </td>
+          <td>
+            368
+          </td>
+      </tr>
+      <tr>
+        <td>/handledarkurs</td>
+          <td>
+            95
+          </td>
+          <td>
+            70
+          </td>
+          <td>
+            00:56:42
+          </td>
+          <td>
+            123
+          </td>
+          <td>
+            397
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+<div class="takeaway takeaway--neutral">
+  <div class="takeaway__label">Sammanfattning</div>
+  <p class="takeaway__body">Maj 2026 visade en tydlig trafikökning med 3 641 användare, en tillväxt på 70,2 % jämfört med maj 2025, driven i ungefär lika delar av betald social och organisk sök. Engagement rate uppgick till 54,0 % och sessioner ökade med 40,2 % till 4 770, vilket pekar på att både räckvidden och kvaliteten på besöken förbättrades. Bounce Rate låg på 46,0 %, en ökning med 10,4 procentenheter från föregående års nivå, vilket framst härstammar från betald social-trafik där bounce strukturellt är högre. Slutsatser om konverteringseffekt bör tolkas försiktigt eftersom volymen är låg.</p>
+</div>
+</div>
+  </div>
+</section>
+<section class="page">
+  <div class="wrap">
+    <div class="section" id="section-meta_ads" data-section-id="meta_ads" data-section-title="Meta Ads">
+  <div class="section-title">
+<img class="section-title__icon" src="../assets/icons/meta.svg" alt="">    <span>Meta Ads</span>
+  </div>
+
+
+    <div class="band">Meta Ads</div>
+<div class="card-grid"><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/meta.svg" alt="">      Spend
+    </div>
+  </div>
+    <div class="card__value card__value--big">11 K kr</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/meta.svg" alt="">      Impressions
+    </div>
+  </div>
+    <div class="card__value card__value--big">238 458</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/meta.svg" alt="">      Clicks
+    </div>
+  </div>
+    <div class="card__value card__value--big">4 564</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/meta.svg" alt="">      CTR
+    </div>
+  </div>
+    <div class="card__value card__value--big">1.91%</div>
+</div><div class="card">
+  <div class="card__head">
+    <div class="label">
+<img src="../assets/icons/meta.svg" alt="">      Conversions
+    </div>
+  </div>
+    <div class="card__value card__value--big">2</div>
+</div></div>
+<div class="chart-card">
+  <div class="chart-card__head">
+    <span>Kostnad vs klick per dag</span>
+    <span class="right">
+    </span>
+  </div>
+  <div class="chart-wrap">
+    <canvas id="meta-spend-clicks-7" data-cyntora='{"dual_axis": true, "kind": "line", "labels": ["1 May", "2 May", "3 May", "4 May", "5 May", "6 May", "7 May", "8 May", "9 May", "10 May", "11 May", "12 May", "13 May", "14 May", "15 May", "16 May", "17 May", "18 May", "19 May", "20 May", "21 May", "22 May", "23 May", "24 May", "25 May", "26 May", "27 May", "28 May", "29 May", "30 May", "31 May"], "series": [{"color": "#1f4e4a", "currency": "SEK", "format": "currency", "label": "Kostnad", "values": [334.24, 351.67, 410.44, 379.79, 387.3, 318.55, 286.46, 307.28, 355.52, 362.27, 346.7, 355.5, 335.38, 333.02, 354.4, 361.78, 385.49, 382.91, 339.35, 334.93, 314.23, 325.83, 366.03, 404.15, 385.96, 333.2, 331.82, 318.54, 302.6, 369.97, 364.91]}, {"color": "#b9d2cf", "format": "number", "integer": true, "label": "Klick", "values": [141, 207, 243, 176, 230, 168, 99, 129, 161, 187, 112, 97, 98, 106, 113, 150, 117, 140, 173, 183, 134, 116, 155, 158, 140, 127, 128, 161, 109, 144, 162]}]}'></canvas>
+  </div>
+</div>
+
+
+<div class="takeaway takeaway--neutral">
+  <div class="takeaway__label">Sammanfattning</div>
+  <p class="takeaway__body">Meta Ads-kampanjen genererade 238 458 exponeringar och 4 564 klick under maj till en total kostnad av 10 840 kr, med en CTR på 1,91 %. Kampanjen var den största enskilda trafikskällan under månaden med 1 641 användare till webbplatsen via betald social. Bounce Rate från kanalen låg på 60,3 %, vilket är vanligt för betald social-trafik, och vi ser över materialets relevans inför juni för att förbättra engagemanget bland dessa besökare. Plattformsklick och GA4-användare mäts olika och påverkas av sessioner, cookies, samtycke, återkommande klick och attribution. De ska därför inte jämföras 1:1.</p>
+</div>
+</div>
+  </div>
+</section>
+
+<section class="page page--dark" id="section-next-steps" data-section-id="next-steps" data-section-title="Vad vi gör härnäst">
+  <div class="wrap">
+    <div class="eyebrow">Vad händer härnäst</div>
+    <div class="next-steps">
+      <h2>Vad vi gör härnäst</h2>
+      <ul>
+<li>Vi kommer att analysera konverteringspunkterna på de mest besökta sidorna, främst /be-korkort och startsidan, för att identifiera konkreta förbättringar som kan driva fler direkta kontakter.</li><li>Vi kommer att se över annonsmaterialet i Meta-kampanjen för att förbättra CTR och minska Bounce Rate från betald social, som i maj låg på 60,3 %.</li><li>Vi kommer att följa upp trafikökningen från maj och jämföra med juni för att bekräfta att tillväxten håller i sig och inte enbart är driven av säsongseffekter.</li><li>Vi kommer att granska landningssidorna för /moped och /c1 där volymerna ökar, för att säkerställa att sidinnehållet matchar besökarsyftet.</li>      </ul>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
